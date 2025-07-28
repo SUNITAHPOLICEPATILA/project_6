@@ -2,4 +2,50 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amity Scholarship Login</title>
+  <meta name="description" content="Login to the Amity Scholarship Portal to access your dashboard and manage applications.">
+  <meta name="author" content="Amity University">
+ <meta name="keywords" content="Amity, Scholarship, Login, Student, Portal">
+
+  <style>
+    /* Reset and base styles */
+    * {
+  margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+ body {
+      background: #f0f2f5;
+      height: 100vh;
+      display: flex;
+ align-items: center;
+      justify-content: center;
+      transition: background 0.3s ease;
+    }
+ /* Container */
+    .container {
+      background: #fff;
+      width: 100%;
+      max-width: 400px;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      position: relative;
+    }
+
+    /* Logo section */
+    .logo {
+       text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .logo img {
+       width: 100px;
+    }
+
+    .title {
+      text-align: center;
+
 
