@@ -63,6 +63,10 @@
     label {
       display: block;
       margin-bottom: 8px;
+      color: #444;
+      font-weight: 600;
+    }
 
+                         
    
 
