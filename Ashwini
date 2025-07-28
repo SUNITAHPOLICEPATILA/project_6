@@ -130,6 +130,9 @@
  .btn-login.loading::after {
       content: "";
       position: absolute;
+      top: 50%;
+      right: 16px;
+      width: 16px;
 
   
 
