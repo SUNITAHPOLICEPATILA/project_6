@@ -2,4 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amity Scholarship Login</title>
+  <meta name="description" content="Login to the Amity Scholarship Portal to access your dashboard and manage applications.">
+  <meta name="author" content="Amity University">
 
