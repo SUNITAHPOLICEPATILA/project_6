@@ -106,7 +106,13 @@
 
     .checkbox-group a:hover {
       text-decoration: underline;
-    }
+   }
+
+
+     /* Login button */
+    .btn-login {
+      width: 100%;
+
   
 
 
