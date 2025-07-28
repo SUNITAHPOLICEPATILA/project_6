@@ -47,5 +47,49 @@
 
     .title {
       text-align: center;
+ font-size: 22px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+     margin-bottom: 25px;
+    }
 
+    /* Input fields */
+    label {
+      display: block;
+      margin-bottom: 8px;
+      color: #444;
+      font-weight: 600;
+    }
+      
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+  padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+ margin-bottom: 18px;
+      font-size: 14px;
+    }
+
+    input[type="text"]:focus,
+ input[type="password"]:focus {
+      border-color: #007bff;
+      outline: none;
+    }
+  /* Checkbox and forgot password */
+    .checkbox-group {
+      display: flex;
+ justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+
+
+                         
+   
 
