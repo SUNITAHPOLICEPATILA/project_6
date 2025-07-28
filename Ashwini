@@ -42,5 +42,10 @@
     }
 
     .logo img {
-      
+       width: 100px;
+    }
+
+    .title {
+      text-align: center;
+
 
