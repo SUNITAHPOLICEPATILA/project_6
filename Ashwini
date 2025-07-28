@@ -57,7 +57,11 @@
       font-size: 14px;
       color: #777;
      margin-bottom: 25px;
+    color: #007bff;
+      text-decoration: none;
     }
+
+ }
 
     /* Input fields */
     label {
@@ -88,6 +92,57 @@
  justify-content: space-between;
       align-items: center;
       margin-bottom: 20px;
+ font-size: 13px;
+    }
+
+    .checkbox-group input[type="checkbox"] {
+ margin-right: 6px;
+    }
+
+    .checkbox-group a {
+ color: #007bff;
+      text-decoration: none;
+  } 
+
+    .checkbox-group a:hover {
+      text-decoration: underline;
+   }
+
+
+     /* Login button */
+    .btn-login {
+      width: 100%;
+ padding: 12px;
+      background-color: #007bff;
+      color: white;
+ border: none;
+      border-radius: 8px;
+      font-size: 16px;
+ cursor: pointer;
+      transition: background-color 0.3s ease;
+      position: relative;
+    }
+ .btn-login:hover {
+      background-color: #0056b3;
+    }
+
+    /* Loading spinner for login */
+ .btn-login.loading::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: 16px;
+      width: 16px;
+      height: 16px;
+      border: 2px solid white;
+      border-top: 2px solid transparent;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      transform: translateY(-50%);
+    } 
+
+  
+
 
 
                          
