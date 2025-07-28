@@ -102,7 +102,12 @@
     .checkbox-group a {
  color: #007bff;
       text-decoration: none;
-  }  
+  } 
+
+    .checkbox-group a:hover {
+      text-decoration: underline;
+    }
+  
 
 
 
