@@ -57,7 +57,11 @@
       font-size: 14px;
       color: #777;
      margin-bottom: 25px;
+    color: #007bff;
+      text-decoration: none;
     }
+
+ }
 
     /* Input fields */
     label {
@@ -98,7 +102,7 @@
     .checkbox-group a {
  color: #007bff;
       text-decoration: none;
-    }
+  }  
 
 
 
