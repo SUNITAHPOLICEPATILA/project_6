@@ -20,4 +20,8 @@
       background: #f0f2f5;
       height: 100vh;
       display: flex;
+ align-items: center;
+      justify-content: center;
+      transition: background 0.3s ease;
+    }
 
