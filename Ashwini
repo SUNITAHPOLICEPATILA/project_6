@@ -133,6 +133,9 @@
       top: 50%;
       right: 16px;
       width: 16px;
+      height: 16px;
+      border: 2px solid white;
+      border-top: 2px solid transparent;
 
   
 
