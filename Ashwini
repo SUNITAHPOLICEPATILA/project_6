@@ -127,6 +127,9 @@
     }
 
     /* Loading spinner for login */
+ .btn-login.loading::after {
+      content: "";
+      position: absolute;
 
   
 
