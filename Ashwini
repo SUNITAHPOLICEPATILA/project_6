@@ -6,4 +6,9 @@
   <title>Amity Scholarship Login</title>
   <meta name="description" content="Login to the Amity Scholarship Portal to access your dashboard and manage applications.">
   <meta name="author" content="Amity University">
+ <meta name="keywords" content="Amity, Scholarship, Login, Student, Portal">
+
+  <style>
+    /* Reset and base styles */
+    * {
 
