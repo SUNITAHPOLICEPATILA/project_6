@@ -82,6 +82,9 @@
       border-color: #007bff;
       outline: none;
     }
+  /* Checkbox and forgot password */
+    .checkbox-group {
+      display: flex;
 
 
                          
