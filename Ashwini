@@ -85,6 +85,9 @@
   /* Checkbox and forgot password */
     .checkbox-group {
       display: flex;
+ justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
 
 
                          
