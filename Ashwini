@@ -139,7 +139,12 @@
       border-radius: 50%;
       animation: spin 1s linear infinite;
       transform: translateY(-50%);
-    } 
+} 
+      @keyframes spin {
+      to { transform: translateY(-50%) rotate(360deg); }
+    }
+
+    /* Divider style */
 
   
 
