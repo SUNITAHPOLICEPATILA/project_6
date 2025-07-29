@@ -164,6 +164,14 @@
     .divider::before {
       left: 0;
     }
+    .divider::after {
+      right: 0;
+    }
+
+    .divider span {
+      color: #888;
+      background: #fff;
+      padding: 0 10px;
 
 
                  
