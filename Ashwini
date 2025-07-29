@@ -176,6 +176,11 @@
     }
 
     /* Register link */
+      .register {
+      text-align: center;
+      font-size: 14px;
+    }
+
 
 
                  
