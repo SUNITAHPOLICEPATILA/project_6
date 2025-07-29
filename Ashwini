@@ -155,6 +155,9 @@
       .divider::after {
       content: "";
       position: absolute;
+      top: 50%;
+      width: 40%;
+      height: 1px;
 
   
 
