@@ -193,6 +193,11 @@
       margin-top: 30px;
       text-align: center;
       font-size: 12px;
+      color: #aaa;
+    }
+
+    /* Dark mode (UI only) */
+    .dark-mode-toggle {
 
 
 
