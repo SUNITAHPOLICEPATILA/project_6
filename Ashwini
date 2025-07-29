@@ -152,6 +152,9 @@
     }
 
     .divider::before,
+      .divider::after {
+      content: "";
+      position: absolute;
 
   
 
