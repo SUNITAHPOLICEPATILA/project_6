@@ -241,4 +241,5 @@
   < div class="container">
 
   <!-- Dark Mode Toggle (non-functional) -->
+ <div class="dark-mode-toggle">🌓 Mode</div>
 
