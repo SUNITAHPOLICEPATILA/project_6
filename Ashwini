@@ -1,11 +1,26 @@
+ b9
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ <meta charset="UTF-8" />
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+ b1
  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Amity Scholarship Login</title>
   <meta name="description" content="Login to the Amity Scholarship Portal to access your dashboard and manage applications.">
   <meta name="author" content="Amity University">
+ b9
+  <meta name="keywords" content="Amity, Scholarship, Login, Student, Portal">
+
+  <style>
+    /* Reset and base styles */
+    * {
+      margin: 0;
+
 b8
   <meta name="keywords" content="Amity, Scholarship, Login, Student, Portal">
 
@@ -20,11 +35,15 @@ b8
 
   margin: 0;
  b1
+ b1
       padding: 0;
       box-sizing: border-box;
       font-family: Arial, sans-serif;
     }
+ b9
+
  b8
+ b1
 
     body {
       background: #f0f2f5;
@@ -36,6 +55,8 @@ b8
     }
 
     /* Container */
+ b9
+
 
  body {
       background: #f0f2f5;
@@ -46,6 +67,7 @@ b8
       transition: background 0.3s ease;
     }
  /* Container */
+ b1
  b1
     .container {
       background: #fff;
@@ -59,41 +81,62 @@ b8
 
     /* Logo section */
     .logo {
+ b9
+      text-align: center;
+
  b8
       text-align: center;
 
        text-align: center;
  b1
+ b1
       margin-bottom: 20px;
     }
 
     .logo img {
+ b9
+      width: 100px;
+
 b8
       width: 100px;
 
        width: 100px;
  b1
+ b1
     }
 
     .title {
       text-align: center;
+ b9
+      font-size: 22px;
+
  b8
       font-size: 22px;
 
  font-size: 22px;
  b1
+ b1
       font-weight: bold;
       color: #333;
       margin-bottom: 10px;
     }
+ b9
+
+
  b8
 
 
+ b1
  b1
     .subtitle {
       text-align: center;
       font-size: 14px;
       color: #777;
+ b9
+      margin-bottom: 25px;
+    }
+
+
  b8
       margin-bottom: 25px;
     }
@@ -107,6 +150,7 @@ b8
  }
 
  b1
+ b1
     /* Input fields */
     label {
       display: block;
@@ -114,7 +158,10 @@ b8
       color: #444;
       font-weight: 600;
     }
+ b9
+
  b8
+ b1
 
     input[type="text"],
     input[type="password"] {
@@ -123,6 +170,8 @@ b8
       border: 1px solid #ccc;
       border-radius: 8px;
       margin-bottom: 18px;
+ b9
+
 
       
     input[type="text"],
@@ -133,11 +182,15 @@ b8
       border-radius: 8px;
  margin-bottom: 18px;
  b1
+ b1
       font-size: 14px;
     }
 
     input[type="text"]:focus,
+ b9
+
  b8
+ b1
     input[type="password"]:focus {
       border-color: #007bff;
       outline: none;
@@ -180,6 +233,8 @@ b8
     }
 
     .btn-login:hover {
+ b9
+
 
  input[type="password"]:focus {
       border-color: #007bff;
@@ -223,15 +278,20 @@ b8
     }
  .btn-login:hover {
  b1
+ b1
       background-color: #0056b3;
     }
 
     /* Loading spinner for login */
+ b9
+    .btn-login.loading::after {
+
 b8
     .btn-login.loading::after {
 
  .btn-login.loading::after {
 b1
+ b1
       content: "";
       position: absolute;
       top: 50%;
@@ -243,6 +303,11 @@ b1
       border-radius: 50%;
       animation: spin 1s linear infinite;
       transform: translateY(-50%);
+ b9
+    }
+
+    @keyframes spin {
+
  b8
     }
 
@@ -251,14 +316,19 @@ b1
 } 
       @keyframes spin {
  b1
+ b1
       to { transform: translateY(-50%) rotate(360deg); }
     }
 
     /* Divider style */
+ b9
+    .divider {
+
 b8
     .divider {
 
      .divider {
+ b1
  b1
       text-align: center;
       margin: 20px 0;
@@ -266,10 +336,14 @@ b8
     }
 
     .divider::before,
+ b9
+    .divider::after {
+
  b8
     .divider::after {
 
       .divider::after {
+ b1
  b1
       content: "";
       position: absolute;
@@ -282,9 +356,13 @@ b8
     .divider::before {
       left: 0;
     }
+ b9
+
+
  b8
 
 
+ b1
  b1
     .divider::after {
       right: 0;
@@ -294,7 +372,10 @@ b8
       color: #888;
       background: #fff;
       padding: 0 10px;
+ b9
+
  b8
+ b1
       font-size: 13px;
     }
 
@@ -310,6 +391,8 @@ b8
     }
 
     .register a:hover {
+ b9
+
 
        font-size: 13px;
     }
@@ -325,14 +408,19 @@ b8
     }
      .register a:hover {
  b1
+ b1
       text-decoration: underline;
     }
 
     /* Footer */
+ b9
+    footer {
+
  b8
     footer {
 
       footer {
+ b1
  b1
       margin-top: 30px;
       text-align: center;
@@ -351,19 +439,28 @@ b8
       padding: 5px;
       border: 1px solid #ccc;
       border-radius: 6px;
+ b9
+      background-color: #f9f9f9;
+
  b8
       background-color: #f9f9f9;
 
        background-color: #f9f9f9;
  b1
+ b1
     }
 
     /* Mobile responsiveness */
     @media (max-width: 500px) {
+ b9
+
  b8
+ b1
       .container {
         padding: 20px;
       }
+
+ b9
 
 
      .container {
@@ -371,9 +468,20 @@ b8
       }
        
  b1
+ b1
       .title {
         font-size: 20px;
       }
+
+< b9
+      .btn-login {
+        font-size: 15px;
+      }
+    }
+
+    /* Accessibility improvement */
+    input:focus-visible {
+      outline: 2px solid #007bff;
 
  b8
         .btn-login {
@@ -384,10 +492,23 @@ b8
     /* Accessibility improvement */
     input:focus-visible {
  outline: 2px solid #007bff;
+ b1
     }
   </style>
 </head>
 <body>
+
+ b9
+  <!-- Login Container -->
+  <div class="container">
+    
+    <!-- Dark Mode Toggle (non-functional) -->
+    <div class="dark-mode-toggle">🌓 Mode</div>
+
+    <!-- Logo and Header -->
+    <div class="logo">
+      <img src="https://www.amity.edu/images/amity-logo.png" alt="Amity University Logo">
+    </div>
 
    <!-- Login Container -->
   < div class="container">
@@ -398,9 +519,21 @@ b8
  <div class="logo">
 <img src="https://www.amity.edu/images/amity-logo.png" alt="Amity University Logo">
  </div>
+ b1
 
     <div class="title">Amity Scholarship Portal</div>
     <div class="subtitle">Login to access your dashboard</div>
+
+ b9
+    <!-- Login Form -->
+    <form action="/login" method="POST" onsubmit="return handleLogin(event)">
+  
+
+      <label for="email">Email / Enrollment No</label>
+      <input type="text" id="email" name="email" placeholder="Enter your email or ID" required autocomplete="username">
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter password" required autocomplete="current-password">
 
      <!-- Login Form -->
 
@@ -414,5 +547,6 @@ b8
 
                          
    
+ b1
  b1
 
