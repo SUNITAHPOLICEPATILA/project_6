@@ -245,4 +245,7 @@
  <!-- Logo and Header -->
  <div class="logo">
 <img src="https://www.amity.edu/images/amity-logo.png" alt="Amity University Logo">
+ </div>
+
+    <div class="title">Amity Scholarship Portal</div>
 
