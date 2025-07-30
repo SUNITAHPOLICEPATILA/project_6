@@ -258,4 +258,6 @@
       <label for="email">Email / Enrollment No</label>
       <input type="text" id="email" name="email" placeholder="Enter your email or ID" required autocomplete="username">
 
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter password" required autocomplete="current-password">
 
