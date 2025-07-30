@@ -1,5 +1,257 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amity Scholarship Login</title>
+  <meta name="description" content="Login to the Amity Scholarship Portal to access your dashboard and manage applications.">
+  <meta name="author" content="Amity University">
+  <meta name="keywords" content="Amity, Scholarship, Login, Student, Portal">
+
+  <style>
+    /* Reset and base styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f0f2f5;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.3s ease;
+    }
+
+    /* Container */
+    .container {
+      background: #fff;
+      width: 100%;
+      max-width: 400px;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      position: relative;
+    }
+
+    /* Logo section */
+    .logo {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .logo img {
+      width: 100px;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+      margin-bottom: 25px;
+    }
+
+    /* Input fields */
+    label {
+      display: block;
+      margin-bottom: 8px;
+      color: #444;
+      font-weight: 600;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      margin-bottom: 18px;
+      font-size: 14px;
+    }
+
+    input[type="text"]:focus,
+    input[type="password"]:focus {
+      border-color: #007bff;
+      outline: none;
+    }
+
+    /* Checkbox and forgot password */
+    .checkbox-group {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      font-size: 13px;
+    }
+
+    .checkbox-group input[type="checkbox"] {
+      margin-right: 6px;
+    }
+
+    .checkbox-group a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .checkbox-group a:hover {
+      text-decoration: underline;
+    }
+
+    /* Login button */
+    .btn-login {
+      width: 100%;
+      padding: 12px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      position: relative;
+    }
+
+    .btn-login:hover {
+      background-color: #0056b3;
+    }
+
+    /* Loading spinner for login */
+    .btn-login.loading::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: 16px;
+      width: 16px;
+      height: 16px;
+      border: 2px solid white;
+      border-top: 2px solid transparent;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      transform: translateY(-50%);
+    }
+
+    @keyframes spin {
+      to { transform: translateY(-50%) rotate(360deg); }
+    }
+
+    /* Divider style */
+    .divider {
+      text-align: center;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .divider::before,
+    .divider::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      width: 40%;
+      height: 1px;
+      background: #ccc;
+    }
+
+    .divider::before {
+      left: 0;
+    }
+
+    .divider::after {
+      right: 0;
+    }
+
+    .divider span {
+      color: #888;
+      background: #fff;
+      padding: 0 10px;
+      font-size: 13px;
+    }
+
+    /* Register link */
+    .register {
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .register a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .register a:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 12px;
+      color: #aaa;
+    }
+
+    /* Dark mode (UI only) */
+    .dark-mode-toggle {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 12px;
+      color: #555;
+      cursor: pointer;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      background-color: #f9f9f9;
+    }
+
+    /* Mobile responsiveness */
+    @media (max-width: 500px) {
+      .container {
+        padding: 20px;
+      }
+
+      .title {
+        font-size: 20px;
+      }
+
+      .btn-login {
+        font-size: 15px;
+      }
+    }
+
+    /* Accessibility improvement */
+    input:focus-visible {
+      outline: 2px solid #007bff;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Login Container -->
+  <div class="container">
+    
+    <!-- Dark Mode Toggle (non-functional) -->
+    <div class="dark-mode-toggle">🌓 Mode</div>
+
+    <!-- Logo and Header -->
+    <div class="logo">
+      <img src="https://www.amity.edu/images/amity-logo.png" alt="Amity University Logo">
+    </div>
+
+    <div class="title">Amity Scholarship Portal</div>
+    <div class="subtitle">Login to access your dashboard</div>
+
+    <!-- Login Form -->
+    <form action="/login" method="POST" onsubmit="return handleLogin(event)">
+  
 
