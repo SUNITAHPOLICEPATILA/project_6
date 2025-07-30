@@ -254,7 +254,8 @@
     <!-- Login Form -->
     <form action="/login" method="POST" onsubmit="return handleLogin(event)">
   
-</div>
 
-    <div class="title">Amity Scholarship Portal</div>
+      <label for="email">Email / Enrollment No</label>
+      <input type="text" id="email" name="email" placeholder="Enter your email or ID" required autocomplete="username">
+
 
