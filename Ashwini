@@ -254,4 +254,7 @@
     <!-- Login Form -->
     <form action="/login" method="POST" onsubmit="return handleLogin(event)">
   
+</div>
+
+    <div class="title">Amity Scholarship Portal</div>
 
