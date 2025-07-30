@@ -207,6 +207,11 @@
       padding: 5px;
       border: 1px solid #ccc;
       border-radius: 6px;
+       background-color: #f9f9f9;
+    }
+
+    /* Mobile responsiveness */
+    @media (max-width: 500px) {
 
 
 
