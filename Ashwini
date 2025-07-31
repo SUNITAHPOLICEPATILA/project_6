@@ -302,7 +302,9 @@
       e.preventDefault(); // Prevent form submission
  return false;
     }
-  </script>
+   </script>
 
+</body>
+</html>
 
 
