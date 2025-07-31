@@ -300,6 +300,9 @@
         alert("Simulated login. Connect to backend.");
    }, 1500);
       e.preventDefault(); // Prevent form submission
+ return false;
+    }
+  </script>
 
 
 
