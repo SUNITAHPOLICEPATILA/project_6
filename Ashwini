@@ -268,5 +268,8 @@
      
       <button type="submit" class="btn-login">Login</button>
     </form>
+      
+      <!-- Divider -->
+    <div class="divider"><span>or</span></div>
 
 
