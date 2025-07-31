@@ -269,7 +269,11 @@
       <button type="submit" class="btn-login">Login</button>
     </form>
       
-      <!-- Divider -->
+   
+   <!-- Divider -->
     <div class="divider"><span>or</span></div>
+  
+    <!-- Register Link -->
+    <div class="register">
 
 
