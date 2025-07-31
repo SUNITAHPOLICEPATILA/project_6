@@ -298,6 +298,8 @@
       btn.classList.remove('loading');
       btn.disabled = false;
         alert("Simulated login. Connect to backend.");
+   }, 1500);
+      e.preventDefault(); // Prevent form submission
 
 
 
