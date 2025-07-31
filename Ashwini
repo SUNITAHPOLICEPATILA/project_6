@@ -296,6 +296,8 @@
       // Simulate delay for visual
       setTimeout(() => {
       btn.classList.remove('loading');
+      btn.disabled = false;
+        alert("Simulated login. Connect to backend.");
 
 
 
