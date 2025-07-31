@@ -294,6 +294,8 @@
       btn.classList.add('loading');
       btn.disabled = true;
       // Simulate delay for visual
+      setTimeout(() => {
+      btn.classList.remove('loading');
 
 
 
