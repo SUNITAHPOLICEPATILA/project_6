@@ -292,6 +292,8 @@
     function handleLogin(e) {
       const btn = document.querySelector('.btn-login');
       btn.classList.add('loading');
+      btn.disabled = true;
+      // Simulate delay for visual
 
 
 
