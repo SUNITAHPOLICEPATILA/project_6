@@ -290,6 +290,8 @@
   <!-- Optional JS -->
  <script>
     function handleLogin(e) {
+      const btn = document.querySelector('.btn-login');
+      btn.classList.add('loading');
 
 
 
